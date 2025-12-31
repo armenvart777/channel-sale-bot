@@ -44,3 +44,5 @@ WEBHOOK_HOST=https://yourdomain.com
 MAX_BOT_TOKEN=           # опционально
 MAX_CHANNEL_ID=          # опционально
 ```
+
+<!-- 2025-12-31 -->
