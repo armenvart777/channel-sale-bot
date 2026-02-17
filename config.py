@@ -44,14 +44,14 @@ class Settings:
 
 settings = Settings()
 
-# Tariffs: name -> (days, price_rub)
+# Tariffs config: key -> {name, days, price_rub}
 TARIFFS = {
     "1month": {"name": "1 месяц", "days": 30, "price": 590},
     "3months": {"name": "3 месяца", "days": 90, "price": 990},
     "1year": {"name": "1 год", "days": 365, "price": 4968},
 }
 
-# Minimum withdrawal amount
+# Minimum withdrawal amount (in rubles)
 MIN_WITHDRAWAL = 500
 
 # Progressive referral: {max_referrals: percent}
